@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "videos",
+    "version":"2.0",
+    "description": "test page",
+    "icons": {
+            "16":"S.png",
+            "32":"S2.png",
+            "48":"S3.png",
+            "128":"S4.png",
+        },
+    "browser_action":{
+        "default_title":"videos loading",
+        "default_popup":"popup.html"
+    },
+
+    "permissions": {"activeTag"}
+}
